@@ -18,13 +18,13 @@ on it. We're also aware that getting after-hours coding time can be
 challenging; we'd like a submission within a week and if you need more
 time please let us know.
 
-If you have any questions, please contact bizops@truss.works; we're
+If you have any questions, please contact hiring@truss.works; we're
 happy to help if you're not sure what we're asking for or if you have
 questions.
 
 ## How to submit your response
 
-Please send bizops@truss.works a link to a public git repository
+Please send hiring@truss.works a link to a public git repository
 (Github is fine) that contains your code and a README.md that tells us
 how to build and run it. Your code will be run on either macOS 10.13
 or Ubuntu 16.04 LTS, your choice.
