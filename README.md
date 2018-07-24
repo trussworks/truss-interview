@@ -37,7 +37,7 @@ your program was named `normalizer` we would test your code on the
 command line like this:
 
 ```sh
-cat sample.csv | ./normalizer
+cat sample.csv | ./normalizer > output.csv
 ```
 
 Normalized, in this case, means:
