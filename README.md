@@ -32,8 +32,15 @@ or Ubuntu 16.04 LTS, your choice.
 ## The problem: CSV normalization
 
 Please write a tool that reads a CSV formatted file on `stdin` and
-emits a normalized CSV formatted file on `stdout`. Normalized, in this
-case, means:
+emits a normalized CSV formatted file on `stdout`. For example, if
+your program was named `normalizer` we would test your code on the
+command line like this:
+
+```sh
+cat sample.csv | ./normalizer > output.csv
+```
+
+Normalized, in this case, means:
 
 * The entire CSV is in the UTF-8 character set.
 * The Timestamp column should be formatted in ISO-8601 format.
