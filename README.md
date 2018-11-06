@@ -55,8 +55,9 @@ Normalized, in this case, means:
   field; your CSV parsing will need to take that into account. Commas
   will only be present inside a quoted string.
 * The `FooDuration` and `BarDuration` columns are in HH:MM:SS.MS
-  format (where MS is milliseconds); please convert them to a floating
-  point seconds format.
+  format (where MS is milliseconds); please convert them to the
+  total number of seconds expressed in floating point format.
+  You should round the result to the nearest thousandth of a second.
 * The `TotalDuration` column is filled with garbage data. For each
   row, please replace the value of `TotalDuration` with the sum of
   `FooDuration` and `BarDuration`.
