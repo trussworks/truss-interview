@@ -57,7 +57,7 @@ Normalized, in this case, means:
 * The `FooDuration` and `BarDuration` columns are in HH:MM:SS.MS
   format (where MS is milliseconds); please convert them to the
   total number of seconds expressed in floating point format.
-  You should round the result to the nearest thousandth of a second.
+  You should not round the result.
 * The `TotalDuration` column is filled with garbage data. For each
   row, please replace the value of `TotalDuration` with the sum of
   `FooDuration` and `BarDuration`.
