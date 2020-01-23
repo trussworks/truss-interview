@@ -26,7 +26,7 @@ questions.
 
 Please send hiring@truss.works a link to a public git repository
 (Github is fine) that contains your code and a README.md that tells us
-how to build and run it. Your code will be run on either macOS 10.13
+how to build and run it. Your code will be run on either macOS 10.15
 or Ubuntu 16.04 LTS, your choice.
 
 ## The problem: CSV normalization
