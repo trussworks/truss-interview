@@ -18,6 +18,10 @@ on it. We're also aware that getting after-hours coding time can be
 challenging; we'd like a submission within a week and if you need more
 time please let us know.
 
+Approach this solution the way you would a real world problem. Use
+libraries where it makes sense to, and be prepared to explain your
+thought process if you do.
+
 If you have any questions, please contact hiring@truss.works; we're
 happy to help if you're not sure what we're asking for or if you have
 questions.
@@ -75,3 +79,5 @@ warning to `stderr` and drop the row from your output.
 
 You can assume that the sample data we provide will contain all date
 and time format variants you will need to handle.
+
+
