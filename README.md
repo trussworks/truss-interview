@@ -47,7 +47,7 @@ command line like this:
 Normalized, in this case, means:
 
 * The entire CSV is in the UTF-8 character set.
-* The `Timestamp` column should be formatted in ISO-8601 format.
+* The `Timestamp` column should be formatted in RFC3339 format.
 * The `Timestamp` column should be assumed to be in US/Pacific time;
   please convert it to US/Eastern.
 * All `ZIP` codes should be formatted as 5 digits. If there are less
