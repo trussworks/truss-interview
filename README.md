@@ -33,7 +33,13 @@ Please send hiring@truss.works a link to a public git repository
 how to build and run it. Your code will be run on either macOS 10.15
 or Ubuntu 16.04 LTS, your choice.
 
-## The problem: CSV normalization
+## The problem: CSV or JSON data normalization
+
+You can decide between using the command line or browser-based code to
+complete the solution. Follow the instructions below based on which
+method you would like to use.
+
+### CSV:
 
 Please write a tool that reads a CSV formatted file on `stdin` and
 emits a normalized CSV formatted file on `stdout`. For example, if
@@ -44,28 +50,39 @@ command line like this:
 ./normalizer < sample.csv > output.csv
 ```
 
+### JSON:
+
+Please write a static webpage that displays the data contained in
+`sample.json`. You should write JavaScript (or code that compiles
+to JavaScript) that takes the sample data and formats it according
+to the normalization rules listed below. Don't worry about making
+it too fancy -- you can display and style the data however you wish,
+but we will be looking for valid markup.
+
+### Normalization rules:
+
 Normalized, in this case, means:
 
-* The entire CSV is in the UTF-8 character set.
-* The `Timestamp` column should be formatted in RFC3339 format.
-* The `Timestamp` column should be assumed to be in US/Pacific time;
+- The entire CSV is in the UTF-8 character set.
+- The `Timestamp` column should be formatted in RFC3339 format.
+- The `Timestamp` column should be assumed to be in US/Pacific time;
   please convert it to US/Eastern.
-* All `ZIP` codes should be formatted as 5 digits. If there are less
+- All `ZIP` codes should be formatted as 5 digits. If there are less
   than 5 digits, assume 0 as the prefix.
-* The `FullName` column should be converted to uppercase. There will be
+- The `FullName` column should be converted to uppercase. There will be
   non-English names.
-* The `Address` column should be passed through as is, except for
+- The `Address` column should be passed through as is, except for
   Unicode validation. Please note there are commas in the Address
   field; your CSV parsing will need to take that into account. Commas
   will only be present inside a quoted string.
-* The `FooDuration` and `BarDuration` columns are in HH:MM:SS.MS
+- The `FooDuration` and `BarDuration` columns are in HH:MM:SS.MS
   format (where MS is milliseconds); please convert them to the
   total number of seconds expressed in floating point format.
   You should not round the result.
-* The `TotalDuration` column is filled with garbage data. For each
+- The `TotalDuration` column is filled with garbage data. For each
   row, please replace the value of `TotalDuration` with the sum of
   `FooDuration` and `BarDuration`.
-* The `Notes` column is free form text input by end-users; please do
+- The `Notes` column is free form text input by end-users; please do
   not perform any transformations on this column. If there are invalid
   UTF-8 characters, please replace them with the Unicode Replacement
   Character.
