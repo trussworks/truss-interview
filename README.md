@@ -33,13 +33,13 @@ Please send hiring@truss.works a link to a public git repository
 how to build and run it. Your code will be run on either macOS 10.15
 or Ubuntu 16.04 LTS, your choice.
 
-## The problem: CSV or JSON data normalization
+## The problem: data normalization
 
-You can decide between using the command line or browser-based code to
-complete the solution. Follow the instructions below based on which
-method you would like to use.
+You can decide between writing your solution in code that will be run
+on the command line or in a web browser. Pick one of the following methods
+and follow the instructions below:
 
-### CSV:
+### CSV (If you want us to run your code from the command line):
 
 Please write a tool that reads a CSV formatted file on `stdin` and
 emits a normalized CSV formatted file on `stdout`. For example, if
@@ -50,42 +50,48 @@ command line like this:
 ./normalizer < sample.csv > output.csv
 ```
 
-### JSON:
+### JSON (If you want us to run your code from a browser):
 
-Please write a static webpage that displays the data contained in
+Please write a static webpage that normalizes and displays the data contained in
 `sample.json`. You should write JavaScript (or code that compiles
 to JavaScript) that takes the sample data and formats it according
 to the normalization rules listed below. Don't worry about making
-it too fancy -- you can display and style the data however you wish,
+it look too fancy; you can display and style the data however you wish,
 but we will be looking for valid markup.
 
 ### Normalization rules:
 
 Normalized, in this case, means:
 
-- The entire CSV is in the UTF-8 character set.
-- The `Timestamp` column should be formatted in RFC3339 format.
-- The `Timestamp` column should be assumed to be in US/Pacific time;
+- The `Timestamp` field should be formatted in RFC3339 format.
+- The `Timestamp` field should be assumed to be in US/Pacific time;
   please convert it to US/Eastern.
 - All `ZIP` codes should be formatted as 5 digits. If there are less
   than 5 digits, assume 0 as the prefix.
-- The `FullName` column should be converted to uppercase. There will be
+- The `FullName` field should be converted to uppercase. There will be
   non-English names.
-- The `Address` column should be passed through as is, except for
-  Unicode validation. Please note there are commas in the Address
-  field; your CSV parsing will need to take that into account. Commas
-  will only be present inside a quoted string.
-- The `FooDuration` and `BarDuration` columns are in HH:MM:SS.MS
+- The `FooDuration` and `BarDuration` fields are in HH:MM:SS.MS
   format (where MS is milliseconds); please convert them to the
   total number of seconds expressed in floating point format.
   You should not round the result.
-- The `TotalDuration` column is filled with garbage data. For each
+- The `TotalDuration` field is filled with garbage data. For each
   row, please replace the value of `TotalDuration` with the sum of
   `FooDuration` and `BarDuration`.
-- The `Notes` column is free form text input by end-users; please do
-  not perform any transformations on this column. If there are invalid
-  UTF-8 characters, please replace them with the Unicode Replacement
-  Character.
+- The `Notes` field is free form text input by end-users; please do
+  not perform any transformations on this field.
+
+You can assume that the sample data we provide will contain all date
+and time format variants you will need to handle.
+
+#### For CSV solutions only
+
+- The entire data set is in the UTF-8 character set.
+- The `Address` field should be passed through as is, except for
+  Unicode validation. Please note there are commas in the Address
+  field; your CSV parsing will need to take that into account. Commas
+  will only be present inside a quoted string.
+- If there are invalid UTF-8 characters in the `Notes` field, please
+  replace them with the Unicode Replacement Character.
 
 You can assume that the input document is in UTF-8 and that any times
 that are missing timezone information are in US/Pacific. If a
@@ -93,6 +99,3 @@ character is invalid, please replace it with the Unicode Replacement
 Character. If that replacement makes data invalid (for example,
 because it turns a date field into something unparseable), print a
 warning to `stderr` and drop the row from your output.
-
-You can assume that the sample data we provide will contain all date
-and time format variants you will need to handle.
