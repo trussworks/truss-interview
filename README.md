@@ -81,7 +81,8 @@ Normalized, in this case, means:
   not perform any transformations on this field.
 
 You can assume that the sample data we provide will contain all date
-and time format variants you will need to handle.
+and time format variants you will need to handle. Any times that are
+missing timezone information are in US/Pacific
 
 #### For CSV solutions only
 
@@ -93,8 +94,7 @@ and time format variants you will need to handle.
 - If there are invalid UTF-8 characters in the `Notes` field, please
   replace them with the Unicode Replacement Character.
 
-You can assume that the input document is in UTF-8 and that any times
-that are missing timezone information are in US/Pacific. If a
+You can assume that the input document is in UTF-8. If a
 character is invalid, please replace it with the Unicode Replacement
 Character. If that replacement makes data invalid (for example,
 because it turns a date field into something unparseable), print a
