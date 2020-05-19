@@ -72,7 +72,7 @@ modify `getSampleData.js` to export the `getSampleData` function. For example:
 import getSampleData from './getSampleData.js'
 ```
 
-You should write JavaScript (or code that compiles to JavaScript) that takes the sample data and formats it accordingto the normalization rules listed below. Don't worry about making
+You should write JavaScript (or code that compiles to JavaScript) that takes the sample data and formats it according to the normalization rules listed below. Don't worry about making
 it look too fancy; you can display and style the data however you wish,
 but we will be looking for valid markup.
 
