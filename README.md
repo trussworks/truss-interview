@@ -99,8 +99,8 @@ Normalized, in this case, means:
 - The `TotalDuration` column is filled with garbage data. For each
   row, please replace the value of `TotalDuration` with the sum of
   `FooDuration` and `BarDuration`.
-- The `Notes` field is free form text input by end-users; please do
-  not perform any transformations on this field. If there are invalid
+- The `Notes` column is free form text input by end-users; please do
+  not perform any transformations on this column. If there are invalid
   UTF-8 characters, please replace them with the Unicode Replacement
   Character.
 
