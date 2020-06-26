@@ -39,10 +39,10 @@ in an HTML `table`.
 
 Name the entrypoint for your application `index.html`. To test your solution, we will open `index.html` in a browser.
 
-You may use additional files to organize your code, but please include submit
-a built version of the project that doesn't require the use of any build tools
-if you do. Accordingly, you may use any build tool you'd like as long as you
-include files that are ready for viewing directly in a browser.
+You may use additional files to organize your code, but please include 
+a built version of the project that doesn't require any build tools in your
+submission if you do. Accordingly, you may use any build tool you'd like
+as long as you include files that are ready for viewing directly in a browser.
 
 Don't worry about making the table look fancy; you can style it however you
 would like to outside the requirements below. We will look at the markup you
