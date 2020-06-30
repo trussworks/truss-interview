@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
+    <style type="text/css">
+      table {
+        border-collapse: collapse;
+      }
+      td,
+      th {
+        border: 1px solid grey;
+        padding: 4px 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <script src="example.js"></script>
+    <script>
+      numeral.register('locale', 'fr', {
+        delimiters: {
+          thousands: ' ',
+          decimal: ',',
+        },
+        abbreviations: {
+          thousand: 'k',
+          million: 'm',
+          billion: 'b',
+          trillion: 't',
+        },
+        ordinal: function (number) {
+          return number === 1 ? 'er' : 'ème'
+        },
+        currency: {
+          symbol: '€',
+        },
+      })
+
+      numeral.locale('fr')
+      start()
+    </script>
+    Loading...
+  </body>
+</html>
