@@ -24,26 +24,26 @@ thought process if you do.
 
 We will review your solution in a recent version of Firefox, Chrome, or Safari.
 
-If you have any questions, please contact hiring@truss.works; we're
+If you have any questions, please contact [hiring@truss.works](mailto:hiring@truss.works); we're
 happy to help if you're not sure what we're asking for or if you have
 questions.
 
 ## How to submit your response
 
-Please submit your solution by emailing hiring@truss.works a link to **one** of the following:
+Please submit your solution by emailing [hiring@truss.works](mailto:hiring@truss.works) a link to **one** of the following:
 
-* A public git repository (Github is fine) that contains your code and a `README.md` that tells us how to build and run it.
-* Your solution running in an online IDE such as [CodePen](https://codepen.io) or [Glitch](https://glitch.com).
+-   A public git repository (Github is fine) that contains your code and a `README.md` that tells us how to build and run it.
+-   Your solution running in an online IDE such as [CodePen](https://codepen.io) or [Glitch](https://glitch.com).
 
 Please ensure that your submission includes everything needed to run and view your project:
 
-* If your solution code requires compilation (such as with a tool like webpack or create-react-app),
-  please provide as a part of your submission complete instructions for running your code, including
-  a `package.json` file with all dependencies included.
-* If your solution is in the form of static assets (such as an index.html file), we will run it
-  using a simple no-config HTTP server (<https://github.com/vercel/serve>).
-* If your solution is on a hosted IDE such as Codepen or Glitch, please make sure to
-  provide an evergreen link that does not expire.
+-   If your solution code requires compilation (such as with a tool like webpack or create-react-app),
+    please provide as a part of your submission complete instructions for running your code, including
+    a `package.json` file with all dependencies included.
+-   If your solution is in the form of static assets (such as an index.html file), we will run it
+    using a simple no-config HTTP server (<https://github.com/vercel/serve>).
+-   If your solution is on a hosted IDE such as Codepen or Glitch, please make sure to
+    provide an evergreen link that does not expire.
 
 ## The problem: Display data from an API for human consumption
 
@@ -62,26 +62,26 @@ generate and any code you write to load or display the data.
 
 For each planet in the dataset, please display:
 
-- The planet's name
-  - The name should be a link that, when clicked, opens the planet's API URL in a new window
-- The planet's climate
-- How many residents the planet has
-- The terrains found on the planet
-- The population
-- The surface area covered by water
-  - Assume that all planets are perfect spheres.
-  - The radius of a sphere is half its diameter.
-  - The value of `surface_water` from the API is a percentage, so a value of `50` means the planet is 50% covered in water.
+-   The planet's name
+    -   The name should be a link that, when clicked, opens the planet's API URL in a new window
+-   The planet's climate
+-   How many residents the planet has
+-   The terrains found on the planet
+-   The population
+-   The surface area covered by water
+    -   Assume that all planets are perfect spheres.
+    -   The radius of a sphere is half its diameter.
+    -   The value of `surface_water` from the API is a percentage, so a value of `50` means the planet is 50% covered in water.
 
 Additionally, please satisfy these requirements:
 
-- Show a loading message while loading the data, and hide this message once the data is displayed.
-- Display an error message if the data load fails for some reason. We may test your code against an invalid URL to demonstrate this.
-- Sort the planets alphabetically
-- Any column that is unknown should be displayed as `?`.
-- Format all numbers larger than 999 with spaces to group digits into groups of three.
-  For example, ten thousand should be displayed as `10 000`.
-- Cells in the table should be separated by 1 pixel gray lines.
+-   Show a loading message while loading the data, and hide this message once the data is displayed.
+-   Display an error message if the data load fails for some reason. We may test your code against an invalid URL to demonstrate this.
+-   Sort the planets alphabetically
+-   Any column that is unknown should be displayed as `?`.
+-   Format all numbers larger than 999 with spaces to group digits into groups of three.
+    For example, ten thousand should be displayed as `10 000`.
+-   Cells in the table should be separated by 1 pixel gray lines.
 
 ### Stretch goals (optional)
 
@@ -89,9 +89,9 @@ If you complete the above and still have additional time, you can choose to comp
 
 **This is absolutely not required for submitting the work sample and should not be worked on beyond the four hour time limit.**
 
-- The API only returns the first page of data by default. Add a "load more" button that
-  loads additional pages of data when clicked. Only show this button if there is more data to be loaded.
-- Sort the table by a column's values when that column's header is clicked.
-- Spruce up your page with some extra styling & design elements!
-- Make sure your page is usable on mobile devices.
-- Include some tests.
+-   The API only returns the first page of data by default. Add a "load more" button that
+    loads additional pages of data when clicked. Only show this button if there is more data to be loaded.
+-   Sort the table by a column's values when that column's header is clicked.
+-   Spruce up your page with some extra styling & design elements!
+-   Make sure your page is usable on mobile devices.
+-   Include some tests.
