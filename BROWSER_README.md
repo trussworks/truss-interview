@@ -32,26 +32,29 @@ questions.
 
 Please submit your solution by emailing hiring@truss.works a link to **one** of the following:
 
-- A public git repository (Github is fine) that contains your code and a `README.md` that tells us how to build and run it.
-- Your solution running in an online IDE such as [CodePen](https://codepen.io) or [Glitch](https://glitch.com).
+* A public git repository (Github is fine) that contains your code and a `README.md` that tells us how to build and run it.
+* Your solution running in an online IDE such as [CodePen](https://codepen.io) or [Glitch](https://glitch.com).
+
+Please ensure that your submission includes everything needed to run and view your project:
+
+* If your solution code requires compilation (such as with a tool like webpack or create-react-app),
+  please provide as a part of your submission complete instructions for running your code, including
+  a `package.json` file with all dependencies included.
+* If your solution is in the form of static assets (such as an index.html file), we will run it
+  using a simple no-config HTTP server (https://github.com/vercel/serve).
+* If your solution is on a hosted IDE such as Codepen or Glitch, please make sure to
+  provide an evergreen link that does not expire.
 
 ## The problem: Display data from an API for human consumption
 
 Please write a static webpage that loads data from `https://swapi.dev/api/planets/` and displays that data
 in an HTML `table`.
 
-Name the entrypoint for your application `index.html`. To test your solution, we will open `index.html` in a browser.
-
-You may use additional files to organize your code, but please include 
-a built version of the project that doesn't require any build tools in your
-submission if you do. Accordingly, you may use any build tool you'd like
-as long as you include files that are ready for viewing directly in a browser.
-
 Don't worry about making the table look fancy; you can style it however you
 would like to outside the requirements below. We will look at the markup you
 generate and any code you write to load or display the data.
 
-## What to display
+### What to display
 
 For each planet in the dataset, please display:
 
@@ -76,7 +79,7 @@ Additionally, please satisfy these requirements:
   For example, ten thousand should be displayed as `10 000`.
 - Cells in the table should be separated by 1 pixel gray lines.
 
-## Stretch goals (optional)
+### Stretch goals (optional)
 
 If you complete the above and still have additional time, you can choose to complete one or more of the following extra requirements.
 
