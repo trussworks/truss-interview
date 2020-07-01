@@ -92,6 +92,7 @@ If you complete the above and still have additional time, you can choose to comp
 -   The API only returns the first page of data by default. Add a "load more" button that
     loads additional pages of data when clicked. Only show this button if there is more data to be loaded.
 -   Sort the table by a column's values when that column's header is clicked.
+-   Table has both an empty state and loading state (when no data exists and when data is still loading accordingly).
 -   Spruce up your page with some extra styling & design elements!
 -   Make sure your page is usable on mobile devices.
 -   Include some tests.
