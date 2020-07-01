@@ -22,15 +22,18 @@ Approach this solution the way you would a real world problem. Use
 libraries where it makes sense to, and be prepared to explain your
 thought process if you do.
 
+We will review your solution in a recent version of Firefox, Chrome, or Safari.
+
 If you have any questions, please contact hiring@truss.works; we're
 happy to help if you're not sure what we're asking for or if you have
 questions.
 
 ## How to submit your response
 
-Please send hiring@truss.works a link to a public git repository
-(Github is fine) that contains your code and a README.md that tells us
-how to build and run it. Your code will be run in Firefox, Chrome, or Safari.
+Please submit your solution by emailing hiring@truss.works a link to **one** of the following:
+
+- A public git repository (Github is fine) that contains your code and a `README.md` that tells us how to build and run it.
+- Your solution running in an online IDE such as [CodePen](https://codepen.io) or [Glitch](https://glitch.com).
 
 ## The problem: Display data from an API for human consumption
 
