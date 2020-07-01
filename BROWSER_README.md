@@ -40,12 +40,10 @@ Please submit your solution by emailing hiring@truss.works a link to **one** of 
 Please write a static webpage that loads data from `https://swapi.dev/api/planets/` and displays that data
 in an HTML `table`.
 
-Name the entrypoint for your application `index.html`. To test your solution, we will open `index.html` in a browser.
+Name the entrypoint for your application `index.html`. 
 
-You may use additional files to organize your code, but please include 
-a built version of the project that doesn't require any build tools in your
-submission if you do. Accordingly, you may use any build tool you'd like
-as long as you include files that are ready for viewing directly in a browser.
+You may use additional files to organize your code. You may also use frameworks and build tools as long as clear, simple instructions are provided for how to run. Please ensure your solution can be easily viewed in the browser. Be ready to answer questions about why you chose a given approach.
+
 
 Don't worry about making the table look fancy; you can style it however you
 would like to outside the requirements below. We will look at the markup you
