@@ -41,7 +41,7 @@ Please ensure that your submission includes everything needed to run and view yo
   please provide as a part of your submission complete instructions for running your code, including
   a `package.json` file with all dependencies included.
 * If your solution is in the form of static assets (such as an index.html file), we will run it
-  using a simple no-config HTTP server (https://github.com/vercel/serve).
+  using a simple no-config HTTP server (<https://github.com/vercel/serve>).
 * If your solution is on a hosted IDE such as Codepen or Glitch, please make sure to
   provide an evergreen link that does not expire.
 
@@ -49,6 +49,10 @@ Please ensure that your submission includes everything needed to run and view yo
 
 Please write a static webpage that loads data from `https://swapi.dev/api/planets/` and displays that data
 in an HTML `table`.
+
+Name the entrypoint for your application `index.html`.
+
+You may use additional files to organize your code. You may also use frameworks and build tools as long as clear, simple instructions are provided for how to run. Please ensure your solution can be easily viewed in the browser. Be ready to answer questions about why you chose a given approach.
 
 Don't worry about making the table look fancy; you can style it however you
 would like to outside the requirements below. We will look at the markup you
@@ -59,15 +63,15 @@ generate and any code you write to load or display the data.
 For each planet in the dataset, please display:
 
 - The planet's name
-    - The name should be a link that, when clicked, opens the planet's API URL in a new window
+  - The name should be a link that, when clicked, opens the planet's API URL in a new window
 - The planet's climate
 - How many residents the planet has
 - The terrains found on the planet
 - The population
 - The surface area covered by water
-    - Assume that all planets are perfect spheres.
-    - The radius of a sphere is half its diameter.
-    - The value of `surface_water` from the API is a percentage, so a value of `50` means the planet is 50% covered in water.
+  - Assume that all planets are perfect spheres.
+  - The radius of a sphere is half its diameter.
+  - The value of `surface_water` from the API is a percentage, so a value of `50` means the planet is 50% covered in water.
 
 Additionally, please satisfy these requirements:
 
