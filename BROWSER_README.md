@@ -72,6 +72,7 @@ For each planet in the dataset, please display:
     -   Assume that all planets are perfect spheres.
     -   The radius of a sphere is half its diameter.
     -   The value of `surface_water` from the API is a percentage, so a value of `50` means the planet is 50% covered in water.
+    -   Round these values to the nearest integer value.
 
 Additionally, please satisfy these requirements:
 
