@@ -56,19 +56,21 @@ generate and any code you write to load or display the data.
 For each planet in the dataset, please display:
 
 - The planet's name
+    - The name should be a link that, when clicked, opens the planet's API URL in a new window
 - The planet's climate
 - How many residents the planet has
-- The terrains found on the planet. Please use an unordered list (`ul`) to structure these and wrap each terrain in a list item (`li`).
+- The terrains found on the planet
 - The population
 - The surface area covered by water
     - Assume that all planets are perfect spheres.
     - The radius of a sphere is half its diameter.
-    - The `surface_water` value in the data is a percent, so `50` means the planet is 50% covered in water.
+    - The value of `surface_water` from the API is a percentage, so a value of `50` means the planet is 50% covered in water.
 
 Additionally, please satisfy these requirements:
 
 - Show a loading message while loading the data, and hide this message once the data is displayed.
-- Sort the planets by name, showing earlier letters first.
+- Display an error message if the data load fails for some reason. We may test your code against an invalid URL to demonstrate this.
+- Sort the planets alphabetically
 - Any column that is unknown should be displayed as `?`.
 - Format all numbers larger than 999 with spaces to group digits into groups of three.
   For example, ten thousand should be displayed as `10 000`.
@@ -78,8 +80,11 @@ Additionally, please satisfy these requirements:
 
 If you complete the above and still have additional time, you can choose to complete one or more of the following extra requirements.
 
-**This is absolutely not required for submitting the work sample.**
+**This is absolutely not required for submitting the work sample and should not be worked on beyond the four hour time limit.**
 
 - The API only returns the first page of data by default. Add a "load more" button that
   loads additional pages of data when clicked. Only show this button if there is more data to be loaded.
 - Sort the table by a column's values when that column's header is clicked.
+- Spruce up your page with some extra styling & design elements!
+- Make sure your page is usable on mobile devices.
+- Include some tests.
