@@ -52,7 +52,7 @@ in an HTML `table`.
 
 Name the entrypoint for your application `index.html`.
 
-You may use additional files to organize your code. You may also use frameworks and build tools as long as clear, simple instructions are provided for how to run. Please ensure your solution can be easily viewed in the browser. Be ready to answer questions about why you chose a given approach.
+You may use additional files to organize your code. You may also use frameworks and build tools as long as clear, simple instructions are provided for how to run them. Please ensure your solution can be easily viewed in the browser. Be ready to answer questions about why you chose a given approach.
 
 Don't worry about making the table look fancy; you can style it however you
 would like to outside the requirements below. We will look at the markup you
