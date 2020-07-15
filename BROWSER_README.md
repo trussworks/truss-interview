@@ -32,7 +32,8 @@ Please ensure that your submission includes everything needed to run and view yo
     using a simple no-config HTTP server (<https://github.com/vercel/serve>).
 -   If your solution is on a hosted IDE such as Codepen or Glitch, please make sure to
     provide an evergreen link that does not expire.
-
+    
+We will review your solution in a recent version of Firefox, Chrome, or Safari.
 
 ## Full Description 
 
