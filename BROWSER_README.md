@@ -2,31 +2,19 @@ _This is one of the steps in the Truss interview process. If you've
 stumbled upon this repository and are interested in a career with
 Truss, [check out our jobs page](https://truss.works/jobs)._
 
-# Truss Software Engineering Interview
+# The problem: Display data from an API for human consumption
 
-## Introduction and expectations
-
-Hi there! Please complete the problem described below to the best of
-your ability, using the tools you're most comfortable with. Assume
-you're sending your submission in for code review from peers;
-we'll be talking about your submission in your interview in that
-context.
-
-We expect this to take less than 4 hours of actual coding time. Please
-submit a working but incomplete solution instead of spending more time
-on it. We're also aware that getting after-hours coding time can be
-challenging; we'd like a submission within a week and if you need more
-time please let us know.
+## Introduction
 
 Approach this solution the way you would a real world problem. Use
 libraries where it makes sense to, and be prepared to explain your
-thought process if you do.
-
-We will review your solution in a recent version of Firefox, Chrome, or Safari.
+thought process if you do. We expect this to take less than 4 hours of actual coding time. Please
+submit a working but incomplete solution instead of spending more time
+on it.
 
 If you have any questions, please contact [hiring@truss.works](mailto:hiring@truss.works); we're
-happy to help if you're not sure what we're asking for or if you have
-questions.
+happy to help.
+
 
 ## How to submit your response
 
@@ -45,10 +33,10 @@ Please ensure that your submission includes everything needed to run and view yo
 -   If your solution is on a hosted IDE such as Codepen or Glitch, please make sure to
     provide an evergreen link that does not expire.
 
-## The problem: Display data from an API for human consumption
 
-Please write a static webpage that loads data from `https://swapi.dev/api/planets/` and displays that data
-in an HTML `table`.
+## Full Description 
+
+Please write a static webpage that loads data from `https://swapi.dev/api/planets/` and displays that datain an HTML `table`.
 
 Name the entrypoint for your application `index.html`.
 
@@ -57,8 +45,6 @@ You may use additional files to organize your code. You may also use frameworks 
 Don't worry about making the table look fancy; you can style it however you
 would like to outside the requirements below. We will look at the markup you
 generate and any code you write to load or display the data.
-
-### What to display
 
 For each planet in the dataset, please display:
 
@@ -86,7 +72,7 @@ Additionally, please satisfy these requirements:
 
 ### Stretch goals (optional)
 
-If you complete the above and still have additional time, you can choose to complete one or more of the following extra requirements.
+If you complete the above and still have additional time, you can choose to complete one or more of the following.
 
 **This is absolutely not required for submitting the work sample and should not be worked on beyond the four hour time limit.**
 

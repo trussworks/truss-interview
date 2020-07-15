@@ -6,7 +6,7 @@ Truss, [check out our jobs page](https://truss.works/jobs)._
 
 ## Introduction and expectations
 
-Hi there! Please complete the problem described below to the best of
+Hi there! Please *choose one** of the problems described below. Solve to the best of
 your ability, using the tools you're most comfortable with. Assume
 you're sending your submission in for code review from peers;
 we'll be talking about your submission in your interview in that
@@ -18,22 +18,15 @@ on it. We're also aware that getting after-hours coding time can be
 challenging; we'd like a submission within a week and if you need more
 time please let us know.
 
-Approach this solution the way you would a real world problem. Use
-libraries where it makes sense to, and be prepared to explain your
-thought process if you do.
+### How to submit your response
 
-If you have any questions, please contact hiring@truss.works; we're
-happy to help if you're not sure what we're asking for or if you have
-questions.
+Please submit your solution by emailing a link to [hiring@truss.works](mailto:hiring@truss.works).  More details on what we are looking for are in the linked files below.
 
-## How to submit your response
+## Choose one problem to work on
 
-Please send hiring@truss.works a link to a public git repository
-(Github is fine) that contains your code and a README.md that tells us
-how to build and run it. Your code will be run on either macOS 10.15
-or Ubuntu 16.04 LTS, your choice.
+A README for each is linked below.
 
-## The problem: CSV normalization
+### The problem: [CSV normalization](CSV_README.md)
 
 Please write a tool that reads a CSV formatted file on `stdin` and
 emits a normalized CSV formatted file on `stdout`. For example, if
@@ -44,38 +37,8 @@ command line like this:
 ./normalizer < sample.csv > output.csv
 ```
 
-Normalized, in this case, means:
+### The problem: [Display data from an API for human consumption](BROWSER_README.md)
 
-* The entire CSV is in the UTF-8 character set.
-* The `Timestamp` column should be formatted in RFC3339 format.
-* The `Timestamp` column should be assumed to be in US/Pacific time;
-  please convert it to US/Eastern.
-* All `ZIP` codes should be formatted as 5 digits. If there are less
-  than 5 digits, assume 0 as the prefix.
-* The `FullName` column should be converted to uppercase. There will be
-  non-English names.
-* The `Address` column should be passed through as is, except for
-  Unicode validation. Please note there are commas in the Address
-  field; your CSV parsing will need to take that into account. Commas
-  will only be present inside a quoted string.
-* The `FooDuration` and `BarDuration` columns are in HH:MM:SS.MS
-  format (where MS is milliseconds); please convert them to the
-  total number of seconds expressed in floating point format.
-  You should not round the result.
-* The `TotalDuration` column is filled with garbage data. For each
-  row, please replace the value of `TotalDuration` with the sum of
-  `FooDuration` and `BarDuration`.
-* The `Notes` column is free form text input by end-users; please do
-  not perform any transformations on this column. If there are invalid
-  UTF-8 characters, please replace them with the Unicode Replacement
-  Character.
+Please write a static webpage that loads data from `https://swapi.dev/api/planets/` and displays that data in an HTML `table`. Name the entrypoint for your application `index.html`.
 
-You can assume that the input document is in UTF-8 and that any times
-that are missing timezone information are in US/Pacific. If a
-character is invalid, please replace it with the Unicode Replacement
-Character. If that replacement makes data invalid (for example,
-because it turns a date field into something unparseable), print a
-warning to `stderr` and drop the row from your output.
-
-You can assume that the sample data we provide will contain all date
-and time format variants you will need to handle.
+You may use additional files to organize your code. You may also use frameworks and build tools as long as clear, simple instructions are provided for how to run them. Please ensure your solution can be easily viewed in the browser.
