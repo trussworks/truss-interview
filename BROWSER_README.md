@@ -15,7 +15,6 @@ on it.
 If you have any questions, please contact [hiring@truss.works](mailto:hiring@truss.works); we're
 happy to help.
 
-
 ## How to submit your response
 
 Please submit your solution by emailing [hiring@truss.works](mailto:hiring@truss.works) a link to **one** of the following:
@@ -33,7 +32,7 @@ Please ensure that your submission includes everything needed to run and view yo
 -   If your solution is on a hosted IDE such as Codepen or Glitch, please make sure to
     provide an evergreen link that does not expire.
     
-We will review your solution in a recent version of Firefox, Chrome, or Safari.
+We will review your solution in a recent version of Firefox, Chrome, or Safari running on MacOS.
 
 ## Full Description 
 
