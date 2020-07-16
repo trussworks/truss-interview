@@ -6,7 +6,7 @@ Truss, [check out our jobs page](https://truss.works/jobs)._
 
 ## Introduction and expectations
 
-Hi there! Please *choose one** of the problems described below. Solve to the best of
+Hi there! Please choose *one* of the problems described below. Solve to the best of
 your ability, using the tools you're most comfortable with. Assume
 you're sending your submission in for code review from peers;
 we'll be talking about your submission in your interview in that
@@ -20,11 +20,11 @@ time please let us know.
 
 ### How to submit your response
 
-Please submit your solution by emailing a link to [hiring@truss.works](mailto:hiring@truss.works).  More details on what we are looking for are in the linked files below.
+Please submit your solution by emailing a link to [hiring@truss.works](mailto:hiring@truss.works).  More details on what we are looking for are in the problem READMEs linked below.
 
 ## Choose one problem to work on
 
-A README for each is linked below.
+A README with specific instructions for each problem is linked below.
 
 ### The problem: [CSV normalization](CSV_README.md)
 
@@ -39,6 +39,6 @@ command line like this:
 
 ### The problem: [Display data from an API for human consumption](BROWSER_README.md)
 
-Please write a static webpage that loads data from `https://swapi.dev/api/planets/` and displays that data in an HTML `table`. Name the entrypoint for your application `index.html`.
+Please write a static webpage that loads data from a specified public API, and formats & displays that data in HTML. You may use libraries, frameworks and/or build tools as long as clear, simple instructions are provided for how to run them. Please ensure your solution can be easily viewed in the browser.
 
 You may use additional files to organize your code. You may also use frameworks and build tools as long as clear, simple instructions are provided for how to run them. Please ensure your solution can be easily viewed in the browser.

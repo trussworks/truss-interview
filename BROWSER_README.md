@@ -26,7 +26,7 @@ Please submit your solution by emailing [hiring@truss.works](mailto:hiring@truss
 Please ensure that your submission includes everything needed to run and view your project:
 
 -   If your solution code requires compilation (such as with a tool like webpack or create-react-app),
-    please provide as a part of your submission complete instructions for running your code, including
+    please provide complete instructions for running your code, including
     a `package.json` file with all dependencies included.
 -   If your solution is in the form of static assets (such as an index.html file), we will run it
     using a simple no-config HTTP server (<https://github.com/vercel/serve>).
@@ -37,14 +37,14 @@ We will review your solution in a recent version of Firefox, Chrome, or Safari.
 
 ## Full Description 
 
-Please write a static webpage that loads data from `https://swapi.dev/api/planets/` and displays that datain an HTML `table`.
+Please write a static webpage that loads data from `https://swapi.dev/api/planets/`, formats and displays that data in a table.
 
 Name the entrypoint for your application `index.html`.
 
 You may use additional files to organize your code. You may also use frameworks and build tools as long as clear, simple instructions are provided for how to run them. Please ensure your solution can be easily viewed in the browser. Be ready to answer questions about why you chose a given approach.
 
 Don't worry about making the table look fancy; you can style it however you
-would like to outside the requirements below. We will look at the markup you
+would like to alongside the requirements below. We will look at the markup you
 generate and any code you write to load or display the data.
 
 For each planet in the dataset, please display:
@@ -80,7 +80,7 @@ If you complete the above and still have additional time, you can choose to comp
 -   The API only returns the first page of data by default. Add a "load more" button that
     loads additional pages of data when clicked. Only show this button if there is more data to be loaded.
 -   Sort the table by a column's values when that column's header is clicked.
--   Table has both an empty state and loading state (when no data exists and when data is still loading accordingly).
+-   Table has both an empty state and loading state (displayed when no data exists, and when data is loading respectively).
 -   Spruce up your page with some extra styling & design elements!
 -   Make sure your page is usable on mobile devices.
 -   Include some tests.
