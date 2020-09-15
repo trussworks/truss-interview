@@ -69,17 +69,3 @@ Additionally, please satisfy these requirements:
 -   Format all numbers larger than 999 with spaces to group digits into groups of three.
     For example, ten thousand should be displayed as `10 000`.
 -   Cells in the table should be separated by 1 pixel gray lines.
-
-### Stretch goals (optional)
-
-If you complete the above and still have additional time, you can choose to complete one or more of the following.
-
-**This is absolutely not required for submitting the work sample and should not be worked on beyond the four hour time limit.**
-
--   The API only returns the first page of data by default. Add a "load more" button that
-    loads additional pages of data when clicked. Only show this button if there is more data to be loaded.
--   Sort the table by a column's values when that column's header is clicked.
--   Table has both an empty state and loading state (displayed when no data exists, and when data is loading respectively).
--   Spruce up your page with some extra styling & design elements!
--   Make sure your page is usable on mobile devices.
--   Include some tests.
