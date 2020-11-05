@@ -18,18 +18,16 @@ on it. We're also aware that getting after-hours coding time can be
 challenging; we'd like a submission within a week and if you need more
 time please let us know.
 
-### How to submit your response
+## How to submit your response
 
 Please submit your solution by emailing a link to [hiring@truss.works](mailto:hiring@truss.works). More details on what we are looking for are included in each problem description linked to below.
 
 ## Choose one problem to work on
 
-A README with specific instructions for each problem is linked below.
+### [CSV normalization](CSV_README.md)
 
-### The problem: [CSV normalization](CSV_README.md)
+This option involves writing [a command-line program to process CSV data](CSV_README.md).
 
-This option involves writing a command-line program to process CSV data.
+### [Display data from an API for human consumption](BROWSER_README.md)
 
-### The problem: [Display data from an API for human consumption](BROWSER_README.md)
-
-This option involves creating a single page web application that loads data from an API.
+This option involves creating [a single page web application that loads data from an API](BROWSER_README.md).
