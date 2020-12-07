@@ -49,8 +49,7 @@ Normalized, in this case, means:
   will only be present inside a quoted string.
 * The `FooDuration` and `BarDuration` columns are in HH:MM:SS.MS
   format (where MS is milliseconds); please convert them to the
-  total number of seconds expressed in floating point format.
-  You should not round the result.
+  total number of seconds.
 * The `TotalDuration` column is filled with garbage data. For each
   row, please replace the value of `TotalDuration` with the sum of
   `FooDuration` and `BarDuration`.
