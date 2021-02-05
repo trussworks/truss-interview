@@ -54,7 +54,7 @@ For each planet in the dataset, please display:
 -   How many residents the planet has
 -   The terrains found on the planet
 -   The population
--   The surface area covered by water
+-   The surface area (in km<sup>2</sup>) covered by water
     -   Assume that all planets are perfect spheres.
     -   The radius of a sphere is half its diameter.
     -   The value of `surface_water` from the API is a percentage, so a value of `50` means the planet is 50% covered in water.
