@@ -38,6 +38,8 @@ We will review your solution in a recent version of Firefox, Chrome, or Safari r
 
 Please write a webpage that loads data from `https://swapi.dev/api/planets/`, formats and displays that data in a table.
 
+Please load and display data from a single page of the API, but be aware that we may test your solution against a different page.
+
 Name the entrypoint for your application `index.html`.
 
 You may use additional files to organize your code. You may also use frameworks and build tools as long as clear, simple instructions are provided for how to run them. Please ensure your solution can be easily viewed in the browser. Be ready to answer questions about why you chose a given approach.
