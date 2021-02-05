@@ -36,7 +36,7 @@ We will review your solution in a recent version of Firefox, Chrome, or Safari r
 
 ## Full Description 
 
-Please write a webpage that loads data from `https://swapi.dev/api/planets/`, formats and displays that data in a table.
+Please write a webpage that loads data from `https://swapi.dev/api/planets/`, formats and displays that data in a table. SWAPI documentation can be found [here](https://swapi.dev/documentation)
 
 Name the entrypoint for your application `index.html`.
 
