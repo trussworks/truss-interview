@@ -36,7 +36,7 @@ We will review your solution in a recent version of Firefox, Chrome, or Safari r
 
 ## Full Description 
 
-Please write a webpage that loads data from `https://swapi.dev/api/planets/`, formats and displays that data in a table.
+Please write a webpage that loads data from `https://swapi.dev/api/planets/`, formats and displays that data in a table. SWAPI documentation can be found [here](https://swapi.dev/documentation)
 
 Please load and display data from a single page of the API, but be aware that we may test your solution against a different page.
 
@@ -56,7 +56,7 @@ For each planet in the dataset, please display:
 -   How many residents the planet has
 -   The terrains found on the planet
 -   The population
--   The surface area covered by water
+-   The surface area (in km<sup>2</sup>) covered by water
     -   Assume that all planets are perfect spheres.
     -   The radius of a sphere is half its diameter.
     -   The value of `surface_water` from the API is a percentage, so a value of `50` means the planet is 50% covered in water.
