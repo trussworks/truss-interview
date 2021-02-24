@@ -67,3 +67,5 @@ warning to `stderr` and drop the row from your output.
 
 You can assume that the sample data we provide will contain all date
 and time format variants you will need to handle.
+
+Note: Any type of line endings are permissible in the output.
