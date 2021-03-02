@@ -28,7 +28,6 @@ We really want to know how you approach a problem and how your solution addresse
 We want to know how you handle technical choices and communicate your reasoning behind your responses to them.
 
 We know not all of your technical depth may be exercised by this problem alone.
-This is purposefully open-ended to give you ample opportunity for you to display your unique perspective when approaching solving a problem with technology.
 
 With the above in mind, here are some tips:
 
