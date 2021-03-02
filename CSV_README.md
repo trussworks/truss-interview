@@ -6,21 +6,49 @@ Truss, [check out our jobs page](https://truss.works/jobs)._
 
 ## Introduction
 
-Approach this solution the way you would a real world problem. Use
-libraries where it makes sense to, and be prepared to explain your
-thought process if you do. We expect this to take less than 4 hours of actual coding time. Please
-submit a working but incomplete solution instead of spending more time
-on it.
+Approach this solution the way you would a real world problem. Feel free
+to use libraries where it makes sense to. Be prepared to explain your
+thought process around your submision.
+
+Please complete as much of the exercise you can within 3-4 hours.
+Do not spend more than 4 hours on this exercise.
+We welcome a working but incomplete solution.
 
 If you have any questions, please contact [hiring@truss.works](mailto:hiring@truss.works); we're
 happy to help.
+
+We will be excited to review and discuss your code over video chat no matter the level of polish of your submission.
+
+## What we want to learn about you from this challenge
+
+This question is intentionally open-ended to scale to your level of comfort with the problem or technologies.
+What you focus on and how you structure your code will tell us a lot about you and how you use technology.
+
+We really want to know how you approach a problem and how your solution addresses it.
+We want to know how you handle technical choices and communicate your reasoning behind your responses to them.
+
+We know not all of your technical depth may be exercised by this problem alone.
+
+With the above in mind, here are some tips:
+
+* Ask us questions. We will try our best to answer your questions quickly over email.
+* Use a language you are comfortable in. We’ll figure out how to run it one way or another.
+* Use the internet liberally. We want this to be a reflection of what you can do day to day. It would be ridiculous if we asked you to code at work without the internet.
+* Focus on getting something to share with us. This is the starting point for our technical conversation.
+* Take notes on things you would like to follow up on if you had more time. We will be excited to discuss these points during our synchronous discussion.
+* Taking the time to include helper scripts or instructions on how to get your project set up will be extremely helpful. Please count any work around this towards your limit of 4 hours.
+
+If you have any time constraints for completing this assignment please reach out to the hiring team.
+We will attempt to accommodate your reasonable requests.
 
 ## How to submit your response
 
 Please submit your solution by emailing [hiring@truss.works](mailto:hiring@truss.works) with a link to a public git repository
 (Github is fine) that contains your code and a README.md that tells us
-how to build and run it. Your code will be run on either macOS 10.15
-or Ubuntu 16.04 LTS, your choice.
+how to build and run it. Your code will be run on either macOS 11.2+
+or Ubuntu 20.04 LTS, your choice. Note, if your development machine is
+running Windows, we suggest testing your response in a Docker image based on
+Ubuntu or Alpine linux.
 
 ## Full Description
 
@@ -58,14 +86,10 @@ Normalized, in this case, means:
   UTF-8 characters, please replace them with the Unicode Replacement
   Character.
 
-You can assume that the input document is in UTF-8 and that any times
-that are missing timezone information are in US/Pacific. If a
-character is invalid, please replace it with the Unicode Replacement
-Character. If that replacement makes data invalid (for example,
-because it turns a date field into something unparseable), print a
-warning to `stderr` and drop the row from your output.
+Safe Assumptions:
 
-You can assume that the sample data we provide will contain all date
-and time format variants you will need to handle.
-
-Note: Any type of line endings are permissible in the output.
+* The input document is in UTF-8.
+* Invalid characters can be replaced with the Unicode Replacement Character. If that replacement makes data invalid (for example, because it turns a date field into something unparseable), print a warning to `stderr` and drop the row from your output.
+* Times that are missing timezone information are in `US/Pacific`.
+* The sample data we provide contains all date and time format variants you will need to handle.
+* Any type of line endings are permissible in the output.
