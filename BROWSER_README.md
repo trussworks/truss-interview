@@ -67,7 +67,7 @@ Additionally, please satisfy these requirements:
 -   Show a loading message while loading the data, and hide this message once the data is displayed.
 -   Display an error message if the data load fails for some reason. We may test your code against an invalid URL to demonstrate this.
 -   Sort the planets alphabetically
--   Any column that is unknown should be displayed as `?`.
+-   Any column that is "unknown" should be displayed as `?`.
 -   Format all numbers larger than 999 with spaces to group digits into groups of three.
     For example, ten thousand should be displayed as `10 000`.
 -   Cells in the table should be separated by 1 pixel gray lines.
