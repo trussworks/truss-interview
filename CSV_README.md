@@ -88,7 +88,7 @@ Normalized, in this case, means:
 
 Safe Assumptions:
 
-* The input document is in UTF-8.
+* The input document is in UTF-8, although some characters may be incorrectly encoded.
 * Invalid characters can be replaced with the Unicode Replacement Character. If that replacement makes data invalid (for example, because it turns a date field into something unparseable), print a warning to `stderr` and drop the row from your output.
 * Times that are missing timezone information are in `US/Pacific`.
 * The sample data we provide contains all date and time format variants you will need to handle.
