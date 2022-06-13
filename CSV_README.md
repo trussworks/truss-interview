@@ -45,10 +45,10 @@ We will attempt to accommodate your reasonable requests.
 
 Please submit your solution by emailing [hiring@truss.works](mailto:hiring@truss.works) with a link to a public git repository
 (Github is fine) that contains your code and a README.md that tells us
-how to build and run it. Your code will be run on either macOS 11.2+
-or Ubuntu 20.04 LTS, your choice. Note, if your development machine is
-running Windows, we suggest testing your response in a Docker image based on
-Ubuntu or Alpine linux.
+how to build and run it. **Your code will be run on your choice of macOS 11.2+ or Ubuntu 20.04 LTS.**
+
+> **Note**
+> If you develop your solution on Windows, be sure to test your response in [WSL2](https://docs.microsoft.com/en-us/windows/wsl/install) under a distribution like Ubuntu or in a Docker image based on Ubuntu or Alpine linux.
 
 ## Full Description
 
