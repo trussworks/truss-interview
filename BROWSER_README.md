@@ -22,7 +22,7 @@ Please submit your solution by emailing [hiring@truss.works](mailto:hiring@truss
 -   A public git repository (Github is fine) that contains your code and a `README.md` that tells us how to build and run it.
 -   Your solution running in an online IDE such as [CodePen](https://codepen.io) or [Glitch](https://glitch.com).
 
-Please ensure that your submission includes everything needed to run and view your project:
+Please ensure that your submission includes everything needed to run and view your project's code:
 
 -   If your solution code requires compilation (such as with a tool like webpack or create-react-app),
     please provide complete instructions for running your code, including
@@ -31,10 +31,10 @@ Please ensure that your submission includes everything needed to run and view yo
     using a simple no-config HTTP server (<https://github.com/vercel/serve>).
 -   If your solution is on a hosted IDE such as Codepen or Glitch, please make sure to
     provide an evergreen link that does not expire.
-    
+
 We will review your solution in a recent version of Firefox, Chrome, or Safari running on MacOS.
 
-## Full Description 
+## Full Description
 
 Please write a webpage that loads data from `https://swapi.dev/api/planets/`, formats and displays that data in a table. SWAPI documentation can be found [here](https://swapi.dev/documentation)
 
